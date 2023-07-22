@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #1F8A70;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+}
+header button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+section {
+    padding: 20px;
+}
+section h2 {
+    margin-top: 0;
+}
+.image-placeholder {
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+}
+footer {
+    background-color: #1F8A70;
+    color: white;
+    padding: 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content a {
+    color: white;
+}
+
+a {
+    color: #FC7300;
+}
+
+.primera-seccion, .segunda-seccion, .tercera-seccion, .cuarta-seccion {
+    background-color: #00425A;
+    color: #EFF5F5;
+}
+
+header a:hover {
+    color: #EFF5F5;
+}
+
+header a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para pantallas de tablet y móvil */
+}
+
+@media (max-width: 320px) {
+    /* Estilos para pantallas de móvil */
+}
+
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    header h1 {
+        font-size: 20px;
+    }
+}
+
